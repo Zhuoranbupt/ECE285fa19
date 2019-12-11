@@ -37,7 +37,7 @@ ln -s /datasets/ee285f-public/PascalVOC2012
 
 ## Code organization
 ---
-'''
+```
 augmentations.py -- establishes measurement of the network
 dataloder.py -- imports the data from the file and outputs image-label pairs
 datasets.py -- establishes measurement of the network
