@@ -37,6 +37,7 @@ ln -s /datasets/ee285f-public/PascalVOC2012
 
 ## Code organization
 ---
+'''
 augmentations.py -- establishes measurement of the network
 dataloder.py -- imports the data from the file and outputs image-label pairs
 datasets.py -- establishes measurement of the network
@@ -47,6 +48,7 @@ parse_config.py -- reads the config files of YOLOv3
 test.py -- establishes measurement of the network
 utils.py -- contains information used in model training
 yolov3.ipynb -- a program that consists of main functions of the project
+```
 
 
 ## Train
