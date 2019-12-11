@@ -283,7 +283,7 @@ def build_targets(pred_boxes, pred_cls, target, anchors, ignore_thres):
 
     # Output tensors
     obj_mask = ByteTensor(nB, nA, nG, nG).fill_(0)
-    print('obj:',obj_mask.shape)
+
     noobj_mask = ByteTensor(nB, nA, nG, nG).fill_(1)
     class_mask = FloatTensor(nB, nA, nG, nG).fill_(0)
     iou_scores = FloatTensor(nB, nA, nG, nG).fill_(0)
@@ -307,10 +307,6 @@ def build_targets(pred_boxes, pred_cls, target, anchors, ignore_thres):
     gw, gh = gwh.t()
     gi, gj = gxy.long().t()
     # Set masks
-    print('bestn:',best_n)
-    print('b',b)
-    print('gj',gj)
-    print('gi',gi)
     obj_mask[b, best_n, gj, gi] = 1
     noobj_mask[b, best_n, gj, gi] = 0
 

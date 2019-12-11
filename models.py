@@ -177,8 +177,7 @@ class YOLOLayer(nn.Module):
             ),
             -1,
         )
-        print('pred_box:',pred_boxes.shape)
-        print('pred_cls:',pred_cls.shape)
+
         if targets is None:
             return output, 0
         
