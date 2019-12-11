@@ -53,22 +53,22 @@ yolov3.ipynb -- a program that consists of main functions of the project
 ---
 The loss and mAP line charts showed the model opitimizing during the 100 epochs. 
 ```
-https://github.com/Zhuoranbupt/ECE285fa19/result_iamge/loss.png
+![loss.png](https://github.com/Zhuoranbupt/ECE285fa19/result_iamge/loss.png)
 ```
 Loss changes of the model
 ```
-https://github.com/Zhuoranbupt/ECE285fa19/result_iamge/mAP.png
+![mAP.png](https://github.com/Zhuoranbupt/ECE285fa19/result_iamge/mAP.png)
 ```
 mAP changes of the model
 ## Test
 ---
 We tested the model on two pictures. The first picture contains a car and two people. The result was that the model detected the car and one person since the other person is to small to be detected.
 ```
-https://github.com/Zhuoranbupt/ECE285fa19/result_iamge/test1.png
+![test1.png](https://github.com/Zhuoranbupt/ECE285fa19/result_iamge/test1.png)
 ```
 Another test was detecting a computer. The detecting box was accurate and the label was correct.
 ```
-https://github.com/Zhuoranbupt/ECE285fa19/result_iamge/test2.png
+![test2.png](https://github.com/Zhuoranbupt/ECE285fa19/result_iamge/test2.png)
 ```
 
 ## Acknowledgement
